@@ -1,0 +1,6 @@
+# 应用服务 WEB 访问端口
+server.port=7878
+#consul相关配置
+spring.cloud.consul.host=localhost
+spring.cloud.consul.port=8500
+spring.cloud.consul.discovery.service-name=${spring.application.name}
